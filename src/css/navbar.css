@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.navpunkter {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4c5a0d;
+    padding: 0 20px;
+    transition: 0.2s ease;
+}
+
+.navlinks:hover {
+    color: #ffce84;
+}
+
+.kontakt {
+    background-color: #ffce84;
+    color: #4c5a0d;
+    padding: 2px 25px;
+    border-radius: 25px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.kontakt:hover {
+    color: #f6f1ee;
+}

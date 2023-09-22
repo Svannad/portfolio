@@ -1,0 +1,57 @@
+.projekt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content video {
+    width: 600px;
+    height: 460px;
+    object-fit: cover;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #281e25;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.content p:nth-child(2) {
+    color: #4c5a0d;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.content a {
+    background-color: #ffce84;
+    color: #4c5a0d;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 2px 25px;
+    border-radius: 25px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #f6f1ee;
+}
